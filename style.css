@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(./assets/shopping-center-with-people-out-focus.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+h1{
+    color: #222;
+    font-family: sans-serif;
+    font-style: normal;
+}
+button{
+    transition: .3s;
+}
+button:hover{
+    transform: scale(1.04);
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #333;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+}
+th {
+    background-color: #0f5211;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f5211;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #9e5400;
+}
